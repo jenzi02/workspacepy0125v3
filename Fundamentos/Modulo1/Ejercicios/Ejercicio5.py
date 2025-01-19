@@ -21,5 +21,8 @@ match opcion:
          resultado=numberOne-numberTwo
          print(f"La resta es {resultado}")
 ### ... replicar otras opciones
-    case _:
-          print("Opcion no valida ")
+    case 3:
+          numberOne=float(input("ingrese numero 1: "))
+          numberTwo=float(input("ingrese numero 2: "))
+          resultado=numberOne*numberTwo
+          print(f"La multiplicacion es {resultado} ")
